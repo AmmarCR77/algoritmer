@@ -9,10 +9,10 @@
 <body>
 
     <?php
-    function sum($a,$b){ // Det är en funktions om innehåller två variabel
-        return $a+$b; // Variabel a stå för nummer 2 och variabel b stå för 5, Detta gör att a adderad med b, den skickar tillbaka 
+    function sum($a){ // Det är en funktions om innehåller två variabel
+        return $a+5; // variabel a stå för nummer 3 sedan adderad med nummer 5 enligt uppgiften, Detta gör att a adderad med nummer 5, den skickar tillbaka 
     }
-    echo sum(2, 5); // den skriver ut
+    echo sum(3);  // den skriver ut
     ?>  
 
 </body>
